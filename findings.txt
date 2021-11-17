@@ -1,0 +1,21 @@
+Summarise your findings here (see specification).
+Given that the approach to solving the sudoku puzzel is through brute
+force, guessing each number possible. The difficulty of the puzzel can
+be analysed through the number of iterations taken to find the
+solution. For the easy problem it took 2,116 iterations while the
+medium problem took 15,605 iterations. Problem for mystery1.dat took
+546,167 iterations to find while the problem for myster3.dat took only
+14,076 iterations. This should mean that the difficulty for mystery1
+is higher tha that of mystery3.On the other hand it could have been
+due to how numbers in the board were laid out which leads to more
+iterations before a solution can be found.
+
+Regarding mystery2.dat, it is the one that is impossible to solve, as
+the program gaveup after 11,533. Meaning it couldn't find a solution
+after trying all solutions. The program also stopped after only
+reaching row 'H', which means it didn't reach the end and just didnt
+report a success.
+
+mystery1.dat = "extremely hard" difficulty
+mystery2.dat = impossive to solve
+mystery3.dat = "hard" difficulty
